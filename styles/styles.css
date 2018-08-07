@@ -260,6 +260,41 @@ button {
   text-decoration: none;
   border-radius: 10px; }
 
+.welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: auto;
+  -ms-flex-pack: auto;
+  justify-content: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: auto;
+  flex-wrap: auto;
+  margin: 50px 100px; }
+
+.content__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: auto center;
+  flex-direction: auto center;
+  -webkit-box-pack: auto;
+  -ms-flex-pack: auto;
+  justify-content: auto;
+  -webkit-box-align: auto;
+  -ms-flex-align: auto;
+  align-items: auto;
+  -ms-flex-wrap: auto;
+  flex-wrap: auto; }
+
 html {
   font-size: 125%; }
 
