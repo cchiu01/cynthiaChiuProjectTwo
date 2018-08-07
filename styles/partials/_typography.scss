@@ -27,6 +27,10 @@ h3 {
     @include font(1.7rem, 1.8rem, 700,  $text__family--header, uppercase)
 }
 
+h4 {
+    @include font(1.2rem, 1.8rem, 700,  $text__family--header, uppercase)
+}
+
 .nav__container {
     @include font(1.2rem, 1.6rem, 700,  $text__family--header, uppercase);
     

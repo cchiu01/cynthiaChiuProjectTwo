@@ -1,4 +1,4 @@
-button {
+.global__button {
     background: $alpha;
     color: white;
     border: none;
@@ -7,4 +7,10 @@ button {
     text-decoration: none;
     // border-radius: 25%;
     border-radius: 10px;
+    width:9.5rem;
+    margin: 1.5rem 0;
+}
+
+.global__button--margin {
+    margin: 0;
 }

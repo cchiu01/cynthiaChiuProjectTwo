@@ -1,0 +1,30 @@
+.content__container--row {
+    @include flex(row);
+    flex: 1 0 30%;
+}
+
+.services__card {
+    @include flex(column, auto, center);
+    border: 2px $beta solid;
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 3%;
+}
+
+.services__card:hover {
+    background-color: $beta;
+}
+
+.services__container {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.services__item {
+    list-style: none;
+}
+
+.icon--big {
+    font-size: 2.5rem;
+}

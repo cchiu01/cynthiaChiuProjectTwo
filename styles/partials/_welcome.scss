@@ -6,3 +6,7 @@
 .content__text {
     @include flex(auto center);
 }
+
+.content__text--center {
+    text-align: center;
+}
