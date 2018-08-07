@@ -395,9 +395,13 @@ button {
   border: 2px #2574A9 solid;
   border-radius: 20px;
   margin: 0 10px;
-  padding: 3%; }
+  padding: 3%;
+  -webkit-transition: ease-in 0.5s;
+  -o-transition: ease-in 0.5s;
+  transition: ease-in 0.5s; }
 
-.services_card:hover {
+.services__card:hover {
+  color: black;
   background-color: #2574A9; }
 
 .services__container {
@@ -420,4 +424,10 @@ img {
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit;
+  -webkit-transition: ease-in 0.5s;
+  -o-transition: ease-in 0.5s;
+  transition: ease-in 0.5s; }
+
+a:hover {
+  color: #2574A9; }
