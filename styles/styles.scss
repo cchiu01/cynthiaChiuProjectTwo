@@ -1,4 +1,8 @@
 @import "partials/setup.scss";
 @import "partials/utils";
 @import "partials/typography";
+@import "partials/header";
 
+html {
+    font-size: 125%;
+}

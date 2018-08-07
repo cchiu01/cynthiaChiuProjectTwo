@@ -1,3 +1,15 @@
-body {
-    background: red;
+@mixin flex($flexDirection:auto, $justifyContent:auto, $alignItems:auto, $flexWrap:auto) {
+    display: flex;
+    flex-direction: $flexDirection;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-wrap: $flexWrap;
+}
+
+@mixin position($top, $righ, $bottom, $left) {
+    position:absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
 }

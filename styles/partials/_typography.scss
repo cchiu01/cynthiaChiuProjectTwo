@@ -1,0 +1,23 @@
+// $font:$font,
+
+$text__family--header: 'Montserrat', sans-serif;
+$text__family--body: 'Open Sans', sans-serif;
+
+@mixin font($size, $weight:400, $font: $text__family--body, $textTransform: none) {
+    font-size: $size;
+    font-weight: $weight;
+    text-transform: $textTransform;
+    font-family: $font;
+}
+
+h1 {
+    @include font(4.6rem, 700, $text__family--header, uppercase)
+}
+
+h2 {
+    @include font(2.4rem, 700, $text__family--header, uppercase)
+}
+
+h3 {
+    @include font(1.7rem, 700, $text__family--header, uppercase)
+}
