@@ -1,3 +1,7 @@
+// ==========
+// MixIN
+// ==========
+
 @mixin flex($flexDirection:auto, $justifyContent:auto, $alignItems:auto, $flexWrap:auto) {
     display: flex;
     flex-direction: $flexDirection;
@@ -13,3 +17,18 @@
     bottom: $bottom;
     left: $left;
 }
+
+// ====================
+// COLOR VARIABLES
+// ====================
+// button and heading
+$alpha: #3a539b;
+// border box
+$beta: #2574A9;
+// border hover fill #205D8G
+$kappa: black; 
+// socials
+$delta: #BEBEBE;
+// socials hover
+$epsilon: #939393;
+

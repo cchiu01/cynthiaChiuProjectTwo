@@ -10,22 +10,10 @@
 
 
 .logo {
-    width: 60%;
-}
-
-.nav__container {
-    width: 40%;
-    @include flex(row, space-between, center)
-}
-
-.nav__item {
-    list-style:none;
-}
-
-.nav__link {
-    text-decoration: none;
+    display: flex;
+    flex: 1 0 45%;
 }
 
 .content {
-     @include flex(column, center)
+    @include flex(column, center)
 }

@@ -7,9 +7,8 @@ $text__family--body: 'Open Sans', sans-serif;
     font-size: $size;
     line-height: $line;
     font-weight: $weight;
-    
-    text-transform: $textTransform;
     font-family: $font;
+    text-transform: $textTransform;
 }
 
 body {
@@ -29,5 +28,10 @@ h3 {
 }
 
 .nav__container {
+    @include font(1.2rem, 1.6rem, 700,  $text__family--header, uppercase);
+    
+}
 
+button {
+    text-transform: uppercase;
 }
