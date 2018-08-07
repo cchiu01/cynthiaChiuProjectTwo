@@ -6,7 +6,7 @@
     flex-wrap: $flexWrap;
 }
 
-@mixin position($top, $righ, $bottom, $left) {
+@mixin position($top, $right, $bottom, $left) {
     position:absolute;
     top: $top;
     right: $right;

@@ -3,21 +3,31 @@
 $text__family--header: 'Montserrat', sans-serif;
 $text__family--body: 'Open Sans', sans-serif;
 
-@mixin font($size, $weight:400, $font: $text__family--body, $textTransform: none) {
+@mixin font($size, $line, $weight:400,  $font: $text__family--body, $textTransform: none) {
     font-size: $size;
+    line-height: $line;
     font-weight: $weight;
+    
     text-transform: $textTransform;
     font-family: $font;
 }
 
+body {
+    @include font(1rem, 1.6rem, 400,  $text__family--body, lowercase)
+}
+
 h1 {
-    @include font(4.6rem, 700, $text__family--header, uppercase)
+    @include font(4.6rem, 1.6rem, 700,  $text__family--header, uppercase)
 }
 
 h2 {
-    @include font(2.4rem, 700, $text__family--header, uppercase)
+    @include font(2.4rem, 1.6rem, 700,  $text__family--header, uppercase)
 }
 
 h3 {
-    @include font(1.7rem, 700, $text__family--header, uppercase)
+    @include font(1.7rem, 1.8rem, 700,  $text__family--header, uppercase)
+}
+
+.nav__container {
+
 }

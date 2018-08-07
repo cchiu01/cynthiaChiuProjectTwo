@@ -1,8 +1,15 @@
 @import "partials/setup.scss";
 @import "partials/utils";
 @import "partials/typography";
+@import "partials/wrapper";
 @import "partials/header";
+// @import
 
 html {
     font-size: 125%;
+} 
+
+img {
+    display: block;
+    width: 100%
 }
