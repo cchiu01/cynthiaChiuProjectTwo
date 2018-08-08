@@ -192,7 +192,7 @@ button {
   background: papayawhip url(../assets/image-1.jpeg) center no-repeat;
   height: 100vh;
   padding-top: 1px; }
-  .header .header__container {
+  .header__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
