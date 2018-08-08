@@ -34,5 +34,8 @@
 @media (max-width: 1000px) {
 .content__container--row {
     flex-direction: column;
+    .services__card {
+        margin: 20px 0;
     }
+    } 
 }

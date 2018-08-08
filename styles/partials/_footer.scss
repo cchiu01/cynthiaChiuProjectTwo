@@ -1,10 +1,30 @@
-.footer {
-    
+// footer {
+//     background: $kappa;
+//     color: white;
 
-}
+// }
 
 .footer__wrapper {
     display: flex;
-    flex: 1 0 33%;
+    flex-wrap: wrap;
+    .contact, .about {
+        width: 50%;
+    }
+    // flex: 1 0 50%;
+    .Contact__flexContainer {
+        display:flex;
+        flex-direction: row;
+        align-content: center;
+    }
+}
+
+.gallery__flexContainer {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .gallery__cell {
+        width: calc(20% - 10px);
+        margin: 10px;
+    }
 }
 

@@ -411,7 +411,9 @@ button {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; } }
+    flex-direction: column; }
+    .content__container--row .services__card {
+      margin: 20px 0; } }
 
 .gallery__container {
   display: -webkit-box;
@@ -540,9 +542,33 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-  -ms-flex: 1 0 33%;
-  flex: 1 0 33%; }
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .footer__wrapper .contact, .footer__wrapper .about {
+    width: 50%; }
+  .footer__wrapper .Contact__flexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+
+.gallery__flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .gallery__flexContainer .gallery__cell {
+    width: calc(20% - 10px);
+    margin: 10px; }
 
 html {
   font-size: 125%; }
