@@ -1,12 +1,11 @@
 .welcome {
     @include flex(column, auto, center);
     margin: 50px 100px;
-}
-
-.content__text {
+    .content__text {
     @include flex(auto center);
+    }
+    .content__text--center {
+    text-align: center;
+    }
 }
 
-.content__text--center {
-    text-align: center;
-}

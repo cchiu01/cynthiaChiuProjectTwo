@@ -1,25 +1,23 @@
 .header {
-    background: papayawhip url(../assets/image-1.jpeg) center no-repeat fixed;
+    background: papayawhip url(../assets/image-1.jpeg) center no-repeat;
     height: 100vh;
     padding-top: 1px;
-}
-
-.header__container {
+    .header__container {
     @include flex(row, space-between, center);
-}
-
-
-.logo {
+    }
+    .logo {
     display: flex;
     flex: 1 0 45%;
+    }
 }
 
 .content__container {
     height:100%;
     @include flex(column);
     justify-content: center;
+    .content__heading--margin {
+    margin-bottom: 0;
+    }
 }
 
-.content__heading--margin {
-    margin-bottom: 0;
-}
+
