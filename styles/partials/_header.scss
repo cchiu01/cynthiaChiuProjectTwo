@@ -18,6 +18,15 @@
     .content__heading--margin {
     margin-bottom: 0;
     }
+} 
+
+@media(max-width: 1000px) {
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        li {
+            margin: 0 10px;
+        }
+    }
+
 }
-
-

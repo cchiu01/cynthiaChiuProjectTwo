@@ -239,6 +239,18 @@ button {
   .content__container .content__heading--margin {
     margin-bottom: 0; }
 
+@media (max-width: 1000px) {
+  .header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .header__container li {
+      margin: 0 10px; } }
+
 .nav__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,6 +358,10 @@ button {
   .content__statcard .statcard__container {
     width: calc(80%);
     margin: 0 20px; }
+
+@media (max-width: 1000px) {
+  .chooseUs__container--background {
+    display: none; } }
 
 .content__container--row {
   display: -webkit-box;
@@ -508,7 +524,6 @@ button {
   flex-wrap: wrap; }
   .servicesGrid__mainContainer--wrap .servicesGrid__container {
     width: 50%;
-    height: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -546,16 +561,8 @@ button {
   flex-wrap: wrap; }
   .footer__wrapper .contact, .footer__wrapper .about {
     width: 50%; }
-  .footer__wrapper .Contact__flexContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-line-pack: center;
-    align-content: center; }
+    .footer__wrapper .contact p, .footer__wrapper .about p {
+      margin-bottom: 0; }
 
 .gallery__flexContainer {
   display: -webkit-box;
