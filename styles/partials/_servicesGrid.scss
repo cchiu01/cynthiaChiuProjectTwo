@@ -1,0 +1,27 @@
+.servicesGrid__mainContainer--wrap {
+    display:flex;
+    flex-wrap:wrap;
+    // flex: 1 0 50%;
+    .servicesGrid__container {
+        width: 50%;
+        height:300px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.content__heading__container {
+    display: flex;
+    align-items: center;
+    .content__heading__bullet{
+        font-size: 6.7rem;
+        font-weight: 700;
+        color: grey;
+    }
+}
+
+.content__text--center {
+    text-align: center;
+}
