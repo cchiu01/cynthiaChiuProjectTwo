@@ -1,8 +1,8 @@
-// footer {
-//     background: $kappa;
-//     color: white;
+footer {
+    background: $kappa;
+    color: white;
 
-// }
+}
 
 .footer__wrapper {
     display: flex;
@@ -25,3 +25,12 @@
     }
 }
 
+footer ul {
+    display: flex;
+    li {
+        margin: 0 10px;
+        a {
+            color:white;
+        }
+    }
+}
