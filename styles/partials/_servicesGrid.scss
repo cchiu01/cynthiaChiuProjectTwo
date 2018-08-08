@@ -24,3 +24,15 @@
 .content__text--center {
     text-align: center;
 }
+
+@media (max-width: 1000px) {
+   
+    .servicesGrid__container--hidden{
+        display: none;
+    }    
+  
+    
+}
+
+//  .servicesGrid__container--stay {
+//         width: 100%;  }

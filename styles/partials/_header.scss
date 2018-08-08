@@ -20,13 +20,20 @@
     }
 } 
 
-@media(max-width: 1000px) {
-    .header__container {
-        display: flex;
-        flex-direction: column;
-        li {
-            margin: 0 10px;
-        }
-    }
 
+@media (max-width: 1000px) {
+    .header__container {
+        flex-direction: column;
+    }
 }
+
+// @media(max-width: 1000px) {
+//     .header__container {
+//         display: flex;
+//         flex-direction: column;
+//         li {
+//             margin: 0 10px;
+//         }
+//     }
+
+// }
