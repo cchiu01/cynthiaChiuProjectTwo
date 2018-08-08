@@ -30,3 +30,9 @@
 .icon--big {
     font-size: 2.5rem;
 }
+
+@media (max-width: 1000px) {
+.content__container--row {
+    flex-direction: column;
+    }
+}

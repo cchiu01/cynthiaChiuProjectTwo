@@ -406,6 +406,13 @@ button {
 .icon--big {
   font-size: 2.5rem; }
 
+@media (max-width: 1000px) {
+  .content__container--row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
 .gallery__container {
   display: -webkit-box;
   display: -ms-flexbox;
